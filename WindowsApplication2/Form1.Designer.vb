@@ -590,7 +590,7 @@ Partial Class CaseFinder
         '
         Me.cboReportType.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.cboReportType.FormattingEnabled = True
-        Me.cboReportType.Items.AddRange(New Object() {"All", "App Memory per case", "Case by Investigator", "Case Evidence", "Case Location", "Case Size", "Custodians in Case", "Metadata type", "Processing time", "Processing speed (GB per hour)", "Search Term Hit", "Total Number of Items", "Total Number of workers"})
+        Me.cboReportType.Items.AddRange(New Object() {"All", "App Memory per case", "Case by Investigator", "Case Evidence", "Case Location", "Case Size", "Compound Case Analysis", "Custodians in Case", "Metadata type", "Processing time", "Processing speed (GB per hour)", "Search Term Hit", "Total Number of Items", "Total Number of workers"})
         Me.cboReportType.Location = New System.Drawing.Point(123, 520)
         Me.cboReportType.Margin = New System.Windows.Forms.Padding(2)
         Me.cboReportType.Name = "cboReportType"
@@ -1267,7 +1267,7 @@ Partial Class CaseFinder
         '
         Me.cboUpgradeCasees.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.cboUpgradeCasees.FormattingEnabled = True
-        Me.cboUpgradeCasees.Items.AddRange(New Object() {"No", "Upgrade Only", "Updgrade and Report"})
+        Me.cboUpgradeCasees.Items.AddRange(New Object() {"No", "Upgrade Only", "Upgrade and Report"})
         Me.cboUpgradeCasees.Location = New System.Drawing.Point(452, 550)
         Me.cboUpgradeCasees.Name = "cboUpgradeCasees"
         Me.cboUpgradeCasees.Size = New System.Drawing.Size(113, 21)
